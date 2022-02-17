@@ -37,3 +37,5 @@ class Terrestres(Animales):
         self.sonidoemitido=sonidoemitido
         self.metodoalimentacion=metodoalimentacion
         self.desplazamiento=desplazamiento
+
+
