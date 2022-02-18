@@ -1,4 +1,4 @@
-##from ast import Return
+##from Animales_Terrestres import Animales
 
 
 class Animales(object):
@@ -34,17 +34,16 @@ class Terrestres(Animales):
         pass
 
     
-    def nombre(self,nombre,accion,sonidoemitido,metodoalimentacion,desplazamiento):
-        self.nombre=nombre
+    def metodoterrestre(self,comer,accion,sonidoemitido,metodoalimentacion,desplazamiento,metododiversion):
         self.accion=accion
         self.sonidoemitido=sonidoemitido
         self.metodoalimentacion=metodoalimentacion
         self.desplazamiento=desplazamiento
 
 
-    def metodoalimentacion(self, alimento):
-        alimento=input("Ingrese Alimento: ")
-        return alimento
+    def metodoalimentacion(self, alimentoterrestre):
+        alimentoterrestre=input("Ingrese Alimento: ")
+        return alimentoterrestre
 
     def desplazamiento(self, movimientoterrestre):
         movimientoterrestre=input("Como se Muve el animal Terrestre: ")
