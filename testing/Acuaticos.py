@@ -1,7 +1,7 @@
-from turtle import color
+#from turtle import color
 
 
-class Animales(object):
+class AnimalesAcuaticos(object):
     nombre = ""
     genero = ""
     edad = ""
