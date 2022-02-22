@@ -1,4 +1,4 @@
 # ProgramacionAplicada
 
-![](C:\Users\ESTUDIANTE\Desktop\DevelopPA\ProgramacionAplicada\Untitled Diagram.jpg)
+![](ProgramacionAplicada\Untitled Diagram.jpg)
 
