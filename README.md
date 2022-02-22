@@ -1,4 +1,4 @@
 # ProgramacionAplicada
 
-![](ProgramacionAplicada\Untitled Diagram.jpg)
+![](Untitled Diagram.jpg)
 
