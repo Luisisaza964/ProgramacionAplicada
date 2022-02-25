@@ -26,22 +26,22 @@ class AnimalesAcuaticos(object):
         return comidaacuaticos
 
     def sonidoemitido(self, sonidoemitidoacuaticos):
-        sonidoemitidoacuaticos=input("Como se Muve el animal Terrestre: ")
+        sonidoemitidoacuaticos=input("Como se Muve el animal Acuatico: ")
         return sonidoemitidoacuaticos
 
     def accion(self, accionacuaticos):
-        accionacuaticos=input("Con que juega el animal Terrestre: ")
+        accionacuaticos=input("Con que juega el animal Acuatico: ")
         return accionacuaticos
 
     def velocidad(self, velocidadacuaticos):
-        accionacuaticos=input("Con que juega el animal Terrestre: ")
+        accionacuaticos=input("Con que juega el animal Acuatico: ")
         return velocidadacuaticos
 
     def metodocaza(self, metodocazaacuaticos):
-        metodocazaacuaticos=input("Con que juega el animal Terrestre: ")
+        metodocazaacuaticos=input("Con que juega el animal Acuatico: ")
         return metodocazaacuaticos
 
     def metodocaza(self, metododefensaacuaticos):
-        metododefensaacuaticos=input("Con que juega el animal Terrestre: ")
+        metododefensaacuaticos=input("Con que juega el animal Acuatico: ")
         return metododefensaacuaticos
     

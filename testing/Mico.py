@@ -1,4 +1,4 @@
-class AnimalesTerrestreMico(object):
+class AnimalesTerrestreMico(Terrestre):
     nombre = ""
     genero = ""
     edad = ""
