@@ -1,7 +1,7 @@
-#from turtle import color
+from Animales import Animales
 
 
-class AnimalesAcuaticos(metodos_animales):
+class AnimalesAcuaticos(Animales):
     nombre = ""
     genero = ""
     edad = ""

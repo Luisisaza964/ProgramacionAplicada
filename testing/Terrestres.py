@@ -1,4 +1,7 @@
-class AnimalesTerrestre(metodos_animales):
+from Animales import Animales
+
+
+class AnimalesTerrestre(Animales):
     nombre = ""
     genero = ""
     edad = ""

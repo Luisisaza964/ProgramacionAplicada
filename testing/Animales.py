@@ -22,4 +22,4 @@ class Animales(object):
         accionAnimales=input("accion del animal Animales: ")
         return accionAnimales
 
-   
+
