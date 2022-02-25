@@ -1,7 +1,7 @@
-#from turtle import color
+from Animales import Animales
 
 
-class AnimalesAcuaticos(metodos_animales):
+class AnimalesAcuaticos(Animales):
     nombre = ""
     genero = ""
     edad = ""
@@ -46,7 +46,7 @@ class AnimalesAcuaticos(metodos_animales):
         return metododefensaacuaticos
     
 
-    class AnimalesAcuaticosDelfin(metodos_acuaticos):
+    class AnimalesAcuaticosDelfin(Animales):
         nombre = ""
         genero = ""
         edad = ""
@@ -96,7 +96,7 @@ class AnimalesAcuaticos(metodos_animales):
             socializacion=input("Que tan frecuente socializan los Delfines: ")
             return socializacion
 
-    class AnimalesAcuaticosTiburon(metodos_acuaticos):
+    class AnimalesAcuaticosTiburon(Animales):
         nombre = ""
         genero = ""
         edad = ""

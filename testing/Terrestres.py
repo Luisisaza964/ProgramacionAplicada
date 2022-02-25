@@ -1,4 +1,6 @@
-class AnimalesTerrestre(metodos_animales):
+from Animales import Animales
+
+class AnimalesTerrestre(Animales):
     nombre = ""
     genero = ""
     edad = ""
@@ -44,7 +46,7 @@ class AnimalesTerrestre(metodos_animales):
         return metododedivercionterrestre
 
 
-    class AnimalesTerrestresLeon(metodos_terrestres):
+    class AnimalesTerrestresLeon(Animales):
         nombre = ""
         genero = ""
         edad = ""
@@ -95,7 +97,7 @@ class AnimalesTerrestre(metodos_animales):
             return metododecazaterrestreleon
 
 
-    class AnimalesTerrestresMico(metodos_terrestres):
+    class AnimalesTerrestresMico(Animales):
         nombre = ""
         genero = ""
         edad = ""
