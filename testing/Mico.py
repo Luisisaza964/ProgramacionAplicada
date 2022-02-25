@@ -1,4 +1,4 @@
-class AnimalesTerrestreMico(Terrestre):
+class AnimalesTerrestresMico(terrestres):
     nombre = ""
     genero = ""
     edad = ""
